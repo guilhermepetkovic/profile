@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+#main__title {
+  color: rgb(80, 80, 80);
+  font-family: 'Montserrat', serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#main__link{
+  padding: 12px;
+  background-color: #99C4C8;
+  color: white;
+  border-radius: 12px;
+}
+
+#main__link:hover{
+  background-color: #68A7AD;
+  color: rgb(230, 230, 230);
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+}
+
+.image-circle{
+  border-radius: 50%;
+}
+
+.green__title {
+  color: #83BD75;
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 4px 4px 24px rgb(150 150 150);
+  border-radius: 12px;
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline-item {
+  display: inline-block;
+  font-size: 50px;
+  margin: 0 16px;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: rgb(130, 130, 130);
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Open Sans', serif;
+  margin-bottom: 32px;
+}
+
+a {
+  font-family: 'Open Sans', serif;
+  text-decoration: none;
+  color: #68A7AD;
+}
+
+a:hover {
+  color: #99C4C8;
+}
